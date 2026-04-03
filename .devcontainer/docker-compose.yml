@@ -1,0 +1,8 @@
+services:
+  rust:
+    image: rust:latest
+    restart: always
+    tty: true
+    volumes:
+      - ../:/Task-URL
+    working_dir: /Task-URL
